@@ -1,0 +1,50 @@
+        body {
+            background-color: rgb(56, 55, 55);
+            margin: 50px;
+            padding: 0;
+            text-align: center;
+        }
+        
+        h1,
+        h2,
+        h3 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+        
+        #tela-escura {
+            width: 100%;
+            height: 100%;
+            opacity: 0.95;
+            position: absolute;
+            background-color: black;
+            color: white;
+            display: none;
+        }
+        
+        .corpo {
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 20px;
+            border: 3px solid black;
+            max-width: 300px;
+            background-color: rgba(15, 14, 14, 0.918);
+        }
+        
+        .stage {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+        }
+        
+        .square {
+            width: 75px;
+            height: 65px;
+            font-size: 30pt;
+            margin: 4px 2px;
+            font-weight: 300;
+            padding-top: 10px;
+            border-radius: 10px;
+            text-align: center;
+            background-color: rgb(0, 161, 0);
+        }
